@@ -1,0 +1,146 @@
+*
+body
+{
+    background-color: #f8f8ff;
+}
+.navbar
+{
+   box-shadow: 3px 3px 10px black;
+   width: 100%;
+   margin: 3px;
+   padding: 1px; 
+
+}
+.navbar-brand
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: darkred;
+}
+
+@media screen and (max-width:800px) {
+    .navbar-brand
+    {
+        font-size: 20px;
+    }
+
+    
+}
+.nav-link
+{
+    color:lightslategray;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 15px;
+    color: indigo;
+}
+
+.nav-link:hover
+{
+    color: gold;
+}
+
+ .card
+ {
+    border: 0;
+    text-align: center;    
+}
+@media screen and (max-width:800px) {
+    .card
+    {
+        margin-left: 35px;
+    }
+    
+}
+section
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#home
+{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.6)), url(images/bu\ logo.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+}
+h3
+{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 900;
+color: white;
+font-size:40px;
+text-shadow: 10px 10px 10px whitesmoke,10px 10px 40px whitesmoke,10px 10px 40px whitesmoke,10px 10px 40px whitesmoke;
+
+}
+
+    
+.footer .card
+{
+   
+    background-color:#f8f8ff !important;
+    text-align: justify;
+}
+.footer .card-text
+{
+    background-color:#f8f8ff ;
+    font-size: 20px;
+    
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   
+}
+li
+{
+    float: right;
+}
+li a{
+    padding: 14px 14px;
+    display: block;
+    color: blue;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 500;
+
+}
+
+li a:hover
+{
+    color: red;
+}
+  
+
+h1
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+  
+  
+
+    
+
+
+
+  
+  
+ 
+ 
+
+
+
+
+
+
+
